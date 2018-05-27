@@ -6,5 +6,3 @@
 
 ## Methods
 
-* [window](methods.md)
-
