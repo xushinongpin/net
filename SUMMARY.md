@@ -12,5 +12,6 @@
   * [virtualBox](xu-ni-ji/virtualbox.md)
 * [linux](linux.md)
   * [挂在磁盘](linux/gua-zai-ci-pan.md)
+  * [curl](linux/curl.md)
 * [mysql](mysql.md)
 
