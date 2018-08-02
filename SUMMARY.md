@@ -13,5 +13,6 @@
 * [linux](linux.md)
   * [挂在磁盘](linux/gua-zai-ci-pan.md)
   * [curl](linux/curl.md)
+  * [下载](linux/xia-zai.md)
 * [mysql](mysql.md)
 
