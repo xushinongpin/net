@@ -14,5 +14,6 @@
   * [挂在磁盘](linux/gua-zai-ci-pan.md)
   * [curl](linux/curl.md)
   * [下载](linux/xia-zai.md)
+  * [学习留下的杂七杂八](linux/xue-xi-liu-xia-de-za-qi-za-ba.md)
 * [mysql](mysql.md)
 
