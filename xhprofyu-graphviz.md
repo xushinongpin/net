@@ -12,5 +12,15 @@ make
 make install
 ```
 
+注意：报错：failed to execute cmd " dot -Tpng" 请核对php.ini
+
+```
+在 php.ini 中 去掉 disable_functions 中的如下函数
+system
+shell_exec
+proc_open
+proc_get_status
+```
+
 
 
