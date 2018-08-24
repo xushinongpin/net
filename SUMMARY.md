@@ -8,6 +8,7 @@
 
 * [window](window.md)
   * [电脑能ping通却不能上网](window/dian-nao-neng-ping-tong-que-bu-neng-shang-wang.md)
+  * [浏览器被流氓了](window/liu-lan-qi-bei-liu-mang-le.md)
 * [虚拟机](xu-ni-ji.md)
   * [virtualBox](xu-ni-ji/virtualbox.md)
 * [linux](linux.md)
