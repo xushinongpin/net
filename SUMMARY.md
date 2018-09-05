@@ -23,4 +23,5 @@
 * [git](git.md)
   * [重置window上git账号密码](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
 * [xhprof与graphviz](xhprofyu-graphviz.md)
+* [redis](redis.md)
 
