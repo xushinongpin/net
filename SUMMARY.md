@@ -19,6 +19,7 @@
   * [下载](linux/xia-zai.md)
   * [笔记1](linux/xue-xi-liu-xia-de-za-qi-za-ba.md)
   * [笔记2](linux/bi-ji-2.md)
+  * [脚本-批量下载+重命名](linux/jiao-672c-pi-liang-xia-8f7d+-zhong-ming-ming.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [重置window上git账号密码](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
