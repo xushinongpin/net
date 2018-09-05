@@ -43,3 +43,5 @@ chmod 775 huangjunying.sh
 
 等待下载完成即可
 
+备注： 断点续传 要加多个 -C 哦
+
