@@ -24,7 +24,8 @@
   * [压缩相关](linux/ya-suo-xiang-guan.md)
 * [mysql](mysql.md)
 * [git](git.md)
-  * [重置window上git账号密码](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
+  * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
+  * [linux](git/linux.md)
 * [xhprof与graphviz](xhprofyu-graphviz.md)
 * [redis](redis.md)
 
