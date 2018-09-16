@@ -7,6 +7,8 @@ groupadd -g 1010 elasticsearch
 useradd -u 1010 -g 1010 -d /home/elasticsearch elasticsearch
 设置密码
 passwd elasticsearch
+分配用户组权限
+chown -R elasticsearch:elasticsearch ./elasticsearch-6.4.0
 ```
 
 
