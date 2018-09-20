@@ -13,6 +13,7 @@
   * [unix命令-win-工具](window/linux.md)
   * [批量修改文件后缀](window/pi-liang-xiu-gai-hou-zhui.md)
   * [IIS导出导入操作](window/iisdao-chu-dao-ru-cao-zuo.md)
+  * [检测网络工具](window/jian-ce-wang-luo-gong-ju.md)
 * [虚拟机](xu-ni-ji.md)
   * [virtualBox](xu-ni-ji/virtualbox.md)
 * [linux](linux.md)
