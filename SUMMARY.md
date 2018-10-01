@@ -34,4 +34,5 @@
 * [xhprof与graphviz](xhprofyu-graphviz.md)
 * [redis](redis.md)
 * [memcache](memcache.md)
+* [宝塔-面板](bao-5854-mian-ban.md)
 
