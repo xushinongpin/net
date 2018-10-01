@@ -10,9 +10,7 @@ https://redis.io/download
 $ redis-cli -h host -p port -a password
 ```
 
-
-
-redis - window自动启动【 https://www.zhihu.com/question/22771030 】
+redis - window自动启动【 [https://www.zhihu.com/question/22771030](https://www.zhihu.com/question/22771030) 】
 
 ```
 进入到redis目录 
@@ -24,17 +22,13 @@ redis-server --service-start
 扩展地址：https://pecl.php.net/package/redis【看好是单线程还是多线程】
 ```
 
-
-
 # **redis笔记**
 
 默认端口  6379 【mogodb 27017 28017】
 
 Windows
 
-redis安装： http://www.runoob.com/redis/redis-install.html
-
-
+redis安装： [http://www.runoob.com/redis/redis-install.html](http://www.runoob.com/redis/redis-install.html)
 
 cmd
 
@@ -42,19 +36,13 @@ cmd
 
 运行：redis-server.exe redis.windows.conf
 
-
-
 新cmd
 
 redis-cli.exe -h 127.0.0.1 -p 6379
 
-
-
-
-
 linux
 
-安装包地址        wget http://download.redis.io/releases/redis-4.0.1.tar.gz
+安装包地址        wget [http://download.redis.io/releases/redis-4.0.1.tar.gz](http://download.redis.io/releases/redis-4.0.1.tar.gz)
 
 解压              tar zxvf redis-xxx.tar.gz
 
@@ -68,61 +56,61 @@ linux
 
 创建【-p 递归创建】
 
-	mkdir -p /usr/local/redis/bin
+```
+mkdir -p /usr/local/redis/bin
 
-	mkdir -p /usr/local/redis/etc
+mkdir -p /usr/local/redis/etc
+```
 
 移动
 
-	mv /lamp/redis-xxx/redis.conf /usr/local/redis/etc
+```
+mv /lamp/redis-xxx/redis.conf /usr/local/redis/etc
 
-	cd /lamp/redis-xxx/src
+cd /lamp/redis-xxx/src
 
-	mv mkreleasehdr.sh redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server /usr/local/redis/bin
+mv mkreleasehdr.sh redis-benchmark redis-check-aof redis-check-dump redis-cli redis-server /usr/local/redis/bin
+```
 
 启动redis服务
 
-	/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf
+```
+/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf
 
-	后台运行需要修改 daemonize no  为 daemonize yes
+后台运行需要修改 daemonize no  为 daemonize yes
+```
 
 停止
 
-	/usr/local/redis/bin/redis-cli【pkill redis-server】
+```
+/usr/local/redis/bin/redis-cli【pkill redis-server】
+```
 
 客户端连接
 
-	/usr/local/redis/bin/redis-cli
-
-
+```
+/usr/local/redis/bin/redis-cli
+```
 
 查看是否运行
 
-	ps -ef \| grep redis
-
-
+```
+ps -ef \| grep redis
+```
 
 查看是否占用端口
 
-	netstat -tunpl \| grep 6379
-
-
+```
+netstat -tunpl \| grep 6379
+```
 
 查看被关闭的端口
 
-	!net
-
-
-
-
-
-
+```
+!net
+```
 
 命令
-
-
-
-
 
 string操作
 
@@ -156,10 +144,6 @@ string操作
 
 获取字符串长度            strlen
 
-
-
-
-
 hash操作【可以当做表】
 
 设置值                    hset key field value【eg:hset user:01 name shabi】
@@ -186,10 +170,6 @@ hash操作【可以当做表】
 
 获取所有的键值            hgetall key
 
-
-
-
-
 lists【链表结构】
 
 从头部压入元素            lpush key value value1
@@ -213,10 +193,6 @@ lists【链表结构】
 从key1尾部弹出压入key2    rpoplpush source destination【eg：rpoplpush list1 list2】
 
 返回链表多少个元素        llen key
-
-
-
-
 
 sets【集合】
 
@@ -247,4 +223,16 @@ sets【集合】
 检查是否存在某个值        sismember key member
 
 随机返回几个【默认一个】  srandmember key \[count\]
+
+
+
+删除所有数据
+
+```
+> flushdb
+或者
+> flushall
+```
+
+
 
