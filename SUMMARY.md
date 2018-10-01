@@ -31,4 +31,5 @@
   * [linux](git/linux.md)
 * [xhprof与graphviz](xhprofyu-graphviz.md)
 * [redis](redis.md)
+* [memcache](memcache.md)
 
