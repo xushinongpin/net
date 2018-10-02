@@ -16,6 +16,7 @@
   * [IIS导出导入操作](window/iisdao-chu-dao-ru-cao-zuo.md)
   * [检测网络工具](window/jian-ce-wang-luo-gong-ju.md)
   * [win10激活](window/win10ji-huo.md)
+  * [用户-增删改](window/yong-6237-zeng-shan-gai.md)
 * [虚拟机](xu-ni-ji.md)
   * [virtualBox](xu-ni-ji/virtualbox.md)
 * [linux](linux.md)
