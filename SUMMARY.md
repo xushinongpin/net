@@ -36,5 +36,4 @@
 * [redis](redis.md)
 * [memcache-memcached](memcache.md)
 * [宝塔-面板](bao-5854-mian-ban.md)
-* [谷歌验证码-authenticator](gu-ge-yan-zheng-7801-authenticator.md)
 
