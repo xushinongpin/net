@@ -28,6 +28,7 @@
   * [脚本-批量下载+重命名](linux/jiao-672c-pi-liang-xia-8f7d+-zhong-ming-ming.md)
   * [压缩相关](linux/ya-suo-xiang-guan.md)
   * [添加用户/用户组](linux/tian-jia-yong-6237-yong-hu-zu.md)
+  * [防火墙开启端口](linux/tian-jia-duan-kou.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
