@@ -1,45 +1,29 @@
-## 安装宝塔
+## [安装宝塔](https://www.bt.cn/btcode.html)
 
 Centos安装脚本
 
 ```
-yum install -y wget 
-&
-&
- wget -O install.sh http://download.bt.cn/install/install.sh 
-&
-&
- sh install.sh
+yum install -y wget &&
+ wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
 ```
 
 Ubuntu/Deepin安装脚本
 
 ```
-wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh 
-&
-&
- sudo bash install.sh
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh && sudo bash install.sh
 ```
 
 Debian安装脚本
 
 ```
-wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh 
-&
-&
- bash install.sh
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh && bash install.sh
 ```
 
 Fedora安装脚本
 
 ```
-wget -O install.sh http://download.bt.cn/install/install.sh 
-&
-&
- bash install.sh
+wget -O install.sh http://download.bt.cn/install/install.sh && bash install.sh
 ```
-
-
 
 ## 管理宝塔
 
@@ -64,16 +48,7 @@ wget -O install.sh http://download.bt.cn/install/install.sh
 卸载
 
 ```
-/etc/init.d/bt stop 
-&
-&
- chkconfig --del bt 
-&
-&
- rm -f /etc/init.d/bt 
-&
-&
- rm -rf /www/server/panel
+/etc/init.d/bt stop && chkconfig --del bt && rm -f /etc/init.d/bt && rm -rf /www/server/panel
 ```
 
 查看当前面板端口
@@ -85,12 +60,7 @@ cat /www/server/panel/data/port.pl
 修改面板端口，如要改成8881（centos 6 系统）
 
 ```
-echo '8881' 
->
- /www/server/panel/data/port.pl 
-&
-&
- /etc/init.d/bt restart
+echo '8881' > /www/server/panel/data/port.pl && /etc/init.d/bt restart
 iptables -I INPUT -p tcp -m state --state NEW -m tcp --dport 8881 -j ACCEPT
 service iptables save
 service iptables restart
@@ -99,12 +69,7 @@ service iptables restart
 修改面板端口，如要改成8881（centos 7 系统）
 
 ```
-echo '8881' 
->
- /www/server/panel/data/port.pl 
-&
-&
- /etc/init.d/bt restart
+echo '8881' > /www/server/panel/data/port.pl && /etc/init.d/bt restart
 firewall-cmd --permanent --zone=public --add-port=8881/tcp
 firewall-cmd --reload
 ```
@@ -112,19 +77,13 @@ firewall-cmd --reload
 强制修改MySQL管理\(root\)密码，如要改成123456
 
 ```
-cd /www/server/panel 
-&
-&
- python tools.pyc root 123456
+cd /www/server/panel && python tools.pyc root 123456
 ```
 
 修改面板密码，如要改成123456
 
 ```
-cd /www/server/panel 
-&
-&
- python tools.pyc panel 123456
+cd /www/server/panel && python tools.pyc panel 123456
 ```
 
 查看宝塔日志
@@ -178,10 +137,7 @@ cat /www/server/panel/data/domain.conf
 关闭面板SSL
 
 ```
-rm -f /www/server/panel/data/ssl.pl 
-&
-&
- /etc/init.d/bt restart
+rm -f /www/server/panel/data/ssl.pl && /etc/init.d/bt restart
 ```
 
 查看面板错误日志
@@ -199,8 +155,7 @@ cat /www/server/data/*.err
 站点配置文件目录\(nginx\)
 
 ```
-/www/server/panel/vhost
-ginx
+/www/server/panel/vhost/nginx
 ```
 
 站点配置文件目录\(apache\)
@@ -233,54 +188,43 @@ ginx
 /www/wwwlogs
 ```
 
-
-
 ## Nginx服务管理
 
 nginx安装目录
 
 ```
-/www/server
-ginx
+/www/server/nginx
 ```
 
 启动
 
 ```
-/etc/init.d
-ginx start
+/etc/init.d/nginx start
 ```
 
 停止
 
 ```
-/etc/init.d
-ginx stop
+/etc/init.d/nginx stop
 ```
 
 重启
 
 ```
-/etc/init.d
-ginx restart
+/etc/init.d/nginx restart
 ```
 
 启载
 
 ```
-/etc/init.d
-ginx reload
+/etc/init.d/nginx reload
 ```
 
 nginx配置文件
 
 ```
-/www/server
-ginx/conf
-ginx.conf
+/www/server/nginx/conf/nginx.conf
 ```
-
-
 
 ## Apache服务管理
 
@@ -319,8 +263,6 @@ apache配置文件
 ```
 /www/server/apache/conf/httpd.conf
 ```
-
-
 
 ## MySQL服务管理
 
@@ -372,8 +314,6 @@ mysql配置文件
 /etc/my.cnf
 ```
 
-
-
 ## FTP服务管理
 
 ftp安装目录
@@ -405,8 +345,6 @@ ftp配置文件
 ```
 /www/server/pure-ftpd/etc/pure-ftpd.conf
 ```
-
-
 
 ## PHP服务管理
 
@@ -456,8 +394,6 @@ php安装目录
 /www/server/php/{52|53|54|55|56|70|71}/etc/php.ini
 ```
 
-
-
 ## Redis服务管理
 
 redis安装目录
@@ -483,8 +419,6 @@ redis配置文件
 ```
 /www/server/redis/redis.conf
 ```
-
-
 
 ## Memcached服务管理
 
@@ -517,8 +451,6 @@ memcached安装目录
 ```
 /etc/init.d/memcached reload
 ```
-
-
 
 ```
 https://www.bt.cn/btcode.html
