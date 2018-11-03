@@ -3,8 +3,7 @@
 Centos安装脚本
 
 ```
-yum install -y wget &&
- wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
 ```
 
 Ubuntu/Deepin安装脚本
