@@ -12,6 +12,8 @@ nameserver 127.0.0.1
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 
+[root@localhost ~]# chattr +i /etc/resolv.conf  //不能改不能删
+
 ```
 
 
