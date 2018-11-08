@@ -31,6 +31,7 @@
   * [防火墙开启端口](linux/tian-jia-duan-kou.md)
   * [修改服务器时间-centos](linux/xiu-gai-fu-wu-qi-shi-95f4-centos.md)
   * [实时监控文件日志](linux/shi-shi-jian-kong-wen-jian-ri-zhi.md)
+  * [视频网站-软件安装](linux/shi-pin-wang-7ad9-ruan-jian-an-zhuang.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
