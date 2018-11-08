@@ -1,3 +1,7 @@
+网上的介绍，自己是失败的
+
+
+
 安装FFMPEG/FLVtool2/MP4Box/PHPShield/imagemagick
 
 ```
@@ -20,10 +24,10 @@
     yum install -y ruby rubygems
 ###And then it’s a simple gem install:
     gem install flvtool2
-    
+
 ###mp4box (GPAC)   This one is quite easy on CentOS 7:
     yum install -y gpac mediainfo
-    
+
 ###imagemagick[宝塔可以安装这个扩展，不用手动]
 ###This package is much more common, so the install is also more straightforward.
 ###Install any prerequisites:
@@ -33,8 +37,8 @@
 ###Install it into PHP:
     pecl install imagick
     echo "extension=imagick.so" > /etc/php.d/imagick.ini
-    
-    
+
+
 ###Finishing up.
 ###Last, but not least:
     service httpd restart
