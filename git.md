@@ -64,9 +64,9 @@ git.exe push --progress "origin" xxxx:xxxx
  参数`--hard`，所有commit的修改直接丢弃
 
 ```
+$ git log   查看日志
 $ git reset --hard HEAD^        回退到上个版本
 $ git reset --hard commit_id    退到/进到 指定commit_id
-
 ```
 
 推送到远程
@@ -102,13 +102,12 @@ c078c641 HEAD@{9}: commit: 小测试
 9cb0ad4f HEAD@{14}: commit: 添加谷歌翻译模板
 555187ed HEAD@{15}: commit: 初始化laravel
 4b836d3e HEAD@{16}: commit (initial): first commit
-
 ```
 
 找到你操作的id如：abfd1a45 ，就可以回退到这个版本
 
 ```
-$ git reset --hard abfd1a45 
+$ git reset --hard abfd1a45
 ```
 
 
