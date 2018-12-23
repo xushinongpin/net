@@ -35,6 +35,7 @@
   * [视频网站-软件安装](linux/shi-pin-wang-7ad9-ruan-jian-an-zhuang.md)
   * [后台运行脚本](linux/hou-tai-yun-xing-jiao-ben.md)
   * [centos7-Softether安装](linux/centos7-softetheran-zhuang.md)
+  * [配置网关](linux/pei-zhi-wang-guan.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
