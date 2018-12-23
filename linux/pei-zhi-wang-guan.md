@@ -21,10 +21,9 @@ vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
     IPADDR=192.168.254.200//固定ip
     NETMASK=255.255.255.0//网关
     GATEWAY=192.168.254.254//默认254，不能改
-    
+
 
 systemctl restart network
-
 ```
 
 
