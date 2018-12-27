@@ -1,4 +1,6 @@
 ```
+centos
+
 mkdir -p /www
 fdisk /dev/sdb
 mke2fs -t ext4 /dev/sdb1
