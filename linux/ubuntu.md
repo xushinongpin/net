@@ -10,13 +10,18 @@ sudo -- sh -c 'apt-get update; apt-get upgrade -y; apt-get dist-upgrade -y; apt-
 sudo apt-get install openssh-server openssh-client
 ```
 
+### 重启网路
+
+```
+sudo /etc/init.d/networking restart
+```
+
 ### **配置静态ip**
 
 Find your actual network configuration by typing
 
 ```
 ifconfig
-
 ```
 
 You should see something similar to
@@ -24,14 +29,12 @@ You should see something similar to
 ```
 eth0 Link encap Ethernet HWaddr 00:00:00:00:00:00
 inet addr:192.168.1.10 Bcast 192.168.1.255 Mask:255.255.255.0
-
 ```
 
 Edit the networking config file by typing
 
 ```
 sudo nano /etc/network/interfaces
-
 ```
 
 Inside it find the line
@@ -39,7 +42,6 @@ Inside it find the line
 ```
 auto eth0
 iface eth0 inet dhcp
-
 ```
 
 and change it to
