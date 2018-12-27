@@ -16,7 +16,7 @@ sudo apt-get install openssh-server openssh-client
 sudo /etc/init.d/networking restart
 ```
 
-### **配置静态ip**
+### **配置静态ip \[ 配置后不能上网，具体原因：未知 \]**
 
 ```
 1- From the top of the screen select the network icon, next to the clock and volume, then click/从屏幕顶部选择时钟和音量旁边的网络图标，然后单击 Edit Connections.
