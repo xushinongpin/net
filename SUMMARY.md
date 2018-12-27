@@ -36,6 +36,7 @@
   * [后台运行脚本](linux/hou-tai-yun-xing-jiao-ben.md)
   * [centos7-Softether安装](linux/centos7-softetheran-zhuang.md)
   * [配置网关](linux/pei-zhi-wang-guan.md)
+  * [ubuntu](linux/ubuntu.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
