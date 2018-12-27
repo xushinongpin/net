@@ -30,5 +30,12 @@ sudo /etc/init.d/networking restart
 5- Enter your desired IP address and subnet mask and click/输入所需的IP地址和子网掩码，然后单击 Save, you can also enter an optional DNS server here/您也可以在此处输入可选的DNS服务器.
 ```
 
+### 越权【 升级到超级用户 】
+
+```
+sudo -i
+cd /a/b/c
+```
+
 
 
