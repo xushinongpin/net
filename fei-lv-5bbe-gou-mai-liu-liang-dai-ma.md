@@ -3,13 +3,13 @@
 查剩余流量
 
 ```
-gosakto status
+GOSAKTO STATUS
 ```
 
 关闭无流量不扣费【 直接不能上网，不会扣除余额 】
 
 ```
-Surfalert on
+SURFALERT ON
     Your SurfAlert has been activated! To avoid unexpected charges, browsing will be put on hold until you register to a surf promo. You'll start receiving periodic alerts when your phone or device connects to the internet and you don't have a surf promo. To register, dial *143# and choose GoSURF. To turn off alerts and continue surfing at regular browsing rate, just text SURFALERT OFF to 8080. For more info, text SURFALERT HELP to 8080.
 ```
 
