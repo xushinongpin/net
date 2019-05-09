@@ -19,6 +19,7 @@
   * [用户-增删改](window/yong-6237-zeng-shan-gai.md)
   * [整站下载软件](window/zhan-dian-xia-zai-ruan-jian.md)
   * [ftp](window/ftp.md)
+  * [IIS+php+mysql](window/iis+php+mysql.md)
 * [linux](linux.md)
   * [挂载磁盘](linux/gua-zai-ci-pan.md)
   * [virtualBox](xu-ni-ji/virtualbox.md)
