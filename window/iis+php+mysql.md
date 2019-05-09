@@ -31,19 +31,21 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
    .
 4. Open the**Php.ini**file in a text editor, then uncomment and modify settings as follows:
 
-   * Set
-     **fastcgi.impersonate = 1**
+   * Set  
+     **fastcgi.impersonate = 1**  
      .
- 
+
      FastCGI under IIS supports the ability to impersonate security tokens of the calling client. This allows IIS to define the security context that the request runs under.
-   * Set
+
+   * Set  
      **cgi.fix\_pathinfo = 0**
- 
-     The
-     **cgi.fix\_pathinfo**
-     provides
-     **PATH\_INFO/PATH\_TRANSLATED**
+
+     The  
+     **cgi.fix\_pathinfo**  
+     provides  
+     **PATH\_INFO/PATH\_TRANSLATED**  
      support for Common Gateway Interface \(CGI\). Setting this to 1 will cause PHP CGI to fix its paths to conform to the specification.
+
    * Set
      **cgi.force\_redirect = 0**
      .
@@ -55,24 +57,26 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
      to point to a location where PHP extensions reside. For PHP 5.2.X, this is typically
      **extension\_dir = "./ext"**
      .
-   * Set
+   * Set  
      **error\_log="C:php\_errors.log"**
- 
+
      This can help with troubleshooting.
+
    * Enable the required PHP extension by un-commenting corresponding lines. More information follows in the section,[Extensions](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php#Extensions_1).
 
      ![](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php/_static/image1.jpg)  
      _Figure 1 Windows extensions_
 
-5. Click on
-   **Start**
-   ,
-   **Settings**
-   ,
-   **Control Panel**
-   , and then double-click on the
-   **System**
+5. Click on  
+   **Start**  
+   ,  
+   **Settings**  
+   ,  
+   **Control Panel**  
+   , and then double-click on the  
+   **System**  
    icon \(using the class view\).
+
 6. Click on the
    **Advanced system settings**
    link in the left column.
@@ -88,9 +92,10 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
    ![](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php/_static/image3.jpg)  
    _Figure 2: Edit System Variable_
 
-9. Click
-   **OK**
+9. Click  
+   **OK**  
    until you have exited the System Properties window.
+
 10. Start IIS Manager by clicking on
     **Start**
     ,
@@ -131,12 +136,13 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
     ![](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php/_static/image1.gif)  
     _Figure 5: Add Script Map_
 
-15. Click
-    **OK**
-    , and then
-    **c**
-    lick
+15. Click  
+    **OK**  
+    , and then  
+    **c**  
+    lick  
     **Yes.**
+
 16. In the left panel, click on your server's
     _hostname_
     , and then double-click on the
@@ -167,8 +173,9 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
     .
 22. Create a new text document, and save it as`c:\inetpub\wwwroot\phpinfo.php`with the following content:
 
-    XML
+    XML  
     Copy
+
     ```
     <
     ?php
@@ -182,5 +189,5 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
     ![](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php/_static/image9.jpg)  
     _Figure 6: PHP information page_
 
-
+ 原文地址： [https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php)
 
