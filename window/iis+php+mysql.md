@@ -46,9 +46,10 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
      **PATH\_INFO/PATH\_TRANSLATED**  
      support for Common Gateway Interface \(CGI\). Setting this to 1 will cause PHP CGI to fix its paths to conform to the specification.
 
-   * Set
-     **cgi.force\_redirect = 0**
+   * Set  
+     **cgi.force\_redirect = 0**  
      .
+
    * Set
      **open\_basedir**
      to point to a folder or network path where the content of the Web site\(s\) is located.
@@ -77,9 +78,10 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
    **System**  
    icon \(using the class view\).
 
-6. Click on the
-   **Advanced system settings**
+6. Click on the  
+   **Advanced system settings**  
    link in the left column.
+
 7. From the
    **System Properties**
    window, click on the
@@ -96,15 +98,16 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
    **OK**  
    until you have exited the System Properties window.
 
-10. Start IIS Manager by clicking on
-    **Start**
-    ,
-    **Programs**
-    ,
-    **Administrative Tools**
-    , and then
-    **Internet Information Services \(IIS\) Manager**
+10. Start IIS Manager by clicking on  
+    **Start**  
+    ,  
+    **Programs**  
+    ,  
+    **Administrative Tools**  
+    , and then  
+    **Internet Information Services \(IIS\) Manager**  
     .
+
 11. From the
     **IIS Manager**
     , click on the
@@ -143,11 +146,12 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
     lick  
     **Yes.**
 
-16. In the left panel, click on your server's
-    _hostname_
-    , and then double-click on the
-    **Default Document**
+16. In the left panel, click on your server's  
+    _hostname_  
+    , and then double-click on the  
+    **Default Document**  
     icon.
+
 17. From the
     **Actions**
     panel on the right, click
@@ -189,5 +193,7 @@ To use the Zip file installation, follow the instructions in[Using FastCGI to Ho
     ![](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php/_static/image9.jpg)  
     _Figure 6: PHP information page_
 
- 原文地址： [https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php)
+    原文地址： [https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php)
+
+
 
