@@ -20,7 +20,7 @@ vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
     ONBOOT="yes"
     IPADDR=192.168.254.200//固定ip
     NETMASK=255.255.255.0//网关
-    GATEWAY=192.168.254.254//默认254，不能改
+    GATEWAY=192.168.254.254//看自己路由
 
 
 systemctl restart network
