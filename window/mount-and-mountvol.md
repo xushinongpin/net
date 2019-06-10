@@ -28,5 +28,5 @@ eg: mount -o timeout=5 retry=2 \\192.168.0.10\www\wwwroot x:
 net use x: /delete
 ```
 
-
+温馨提示： 共享文件不能添加修改请核对是否给了权限，测试用的可以给777
 
