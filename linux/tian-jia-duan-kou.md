@@ -14,6 +14,18 @@ centos7
 
 \#firewall-cmd --zone= public --remove-port=8888/tcp --permanent
 
+关闭防火墙
+
+```
+ systemctl stop firewalld.service
+```
+
+禁止启动
+
+```
+systemctl disable firewalld.service
+```
+
 查看防火墙状态
 
 ```
