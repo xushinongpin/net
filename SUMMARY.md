@@ -20,6 +20,7 @@
   * [整站下载软件](window/zhan-dian-xia-zai-ruan-jian.md)
   * [ftp](window/ftp.md)
   * [IIS+php+mysql](window/iis+php+mysql.md)
+  * [mount and mountvol-挂载](window/mount-and-mountvol.md)
 * [linux](linux.md)
   * [挂载磁盘](linux/gua-zai-ci-pan.md)
   * [virtualBox](xu-ni-ji/virtualbox.md)
