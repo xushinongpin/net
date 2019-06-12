@@ -2,7 +2,7 @@
 vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
 
     TYPE="Ethernet"
-    BOOTPROTO="none"
+    BOOTPROTO="none"  //静态ip  使用 dhcp
     DEFROUTE="yes"
     PEERDNS="yes"
     PEERROUTES="yes"
