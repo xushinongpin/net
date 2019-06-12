@@ -40,6 +40,7 @@
   * [配置网关](linux/pei-zhi-wang-guan.md)
   * [ubuntu](linux/ubuntu.md)
   * [composer-php](linux/composer-php.md)
+  * [phpstorm安装](linux/phpstorman-zhuang.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
