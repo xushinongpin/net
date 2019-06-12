@@ -24,6 +24,8 @@ vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
 
 
 systemctl restart network
+或者
+service network restart //这条好像比较有效
 ```
 
 
