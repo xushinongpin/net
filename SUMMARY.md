@@ -42,6 +42,7 @@
   * [composer-php](linux/composer-php.md)
   * [phpstorm安装](linux/phpstorman-zhuang.md)
   * [安装图形界面](linux/an-zhuang-tu-xing-jie-mian.md)
+  * [chrome-打开权限](linux/chromeda-kai-quan-xian.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
