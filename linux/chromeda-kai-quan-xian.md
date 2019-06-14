@@ -7,5 +7,5 @@ exec -a "$0" "$HERE/chrome" "$@"
 exec -a "$0" "$HERE/chrome" "$@" --user-data-dir --no-sandbox
 ```
 
-
+root默认不给打开谷歌浏览器
 
