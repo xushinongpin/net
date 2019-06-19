@@ -43,6 +43,8 @@ $ ip a | grep inet6
 四： 重启电脑
  reboot
 五： 执行 一 命令 看不到输出了
+
+这个网站有几种方法，可以去借鉴： https://linuxhint.com/disable_ipv6_centos7/
 ```
 
 
