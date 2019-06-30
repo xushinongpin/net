@@ -41,28 +41,34 @@ git clone  https://github.com/MarioVilas/googlesearch.git
 1、在github上创建项目
 
 > 2、使用git clone [https://github.com/xxxxxxx/xxxxx.git](https://link.jianshu.com?t=https://github.com/xxxxxxx/xxxxx.git)克隆到本地
-
+>
 > 3、编辑项目
-
+>
 > 4、git add . （将改动添加到暂存区）
-
+>
 > 5、git commit -m "提交说明"
-
+>
 > 6、git push origin master 将本地更改推送到远程master分支。
-
+>
 > 这样你就完成了向远程仓库的推送。
 
 如果在github的remote上已经有了文件，会出现错误。此时应当先pull一下，即：
 
 ```
 git pull origin master
-
 ```
 
 然后再进行：
 
 ```
 git push origin master
+```
+
+还原指定文件
+
+```
+git log storage/app/public/.gitignore  //获取指定文件的版本号
+git checkout 3561e117750418d802593c0913cb48d0a62b4a72 storage/app/public/.gitignore  //还原到指定版本
 ```
 
 
