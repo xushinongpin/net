@@ -110,5 +110,7 @@ c078c641 HEAD@{9}: commit: 小测试
 $ git reset --hard abfd1a45
 ```
 
+拉取与获取等待半天都失败的解决方案
 
+![](/assets/20190801043420.png)
 
