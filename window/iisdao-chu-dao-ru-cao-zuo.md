@@ -16,5 +16,12 @@
 %windir%\system32\inetsrv\appcmd add site /in < d:\mywebsite.xml //单个导入
 ```
 
+最简单的方法
+
+```
+复制系统IIS配置文件  C:\Windows\System32\inetsrv\config
+需要修改 ip 信息的  直接修改 applicationHost.config
+```
+
 
 
