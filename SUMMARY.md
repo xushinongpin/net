@@ -48,6 +48,7 @@
   * [定时任务](linux/ding-shi-ren-wu.md)
   * [postman-安装](linux/postmanan-zhuang.md)
   * [rpm包安装](linux/rpmbao-an-zhuang.md)
+  * [目录大小](linux/mu-lu-da-xiao.md)
 * [mysql](mysql.md)
 * [git](git.md)
   * [window](git/zhong-zhi-window-shang-git-zhang-hao-mi-ma.md)
