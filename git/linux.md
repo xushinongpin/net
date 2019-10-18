@@ -61,7 +61,7 @@ git pull origin master
 然后再进行：
 
 ```
-git push origin master
+git push -u origin master
 ```
 
 还原指定文件
