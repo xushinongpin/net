@@ -112,5 +112,12 @@ $ git reset --hard abfd1a45
 
 拉取与获取等待半天都失败的解决方案
 
-![](/assets/20190801043420.png)
+![](/assets/20190801043420.png)创建分支提交
+
+```
+git push origin new_master:new_master
+git push --set-upstream origin new_master
+```
+
+
 
